@@ -1,0 +1,12 @@
+[
+  { "studentName": "Dana",  "className": "A", "subject": "Math",    "score": 90 },
+  { "studentName": "Yossi", "className": "A", "subject": "Math",    "score": 70 },
+  { "studentName": "Noa",   "className": "A", "subject": "English", "score": 85 },
+  { "studentName": "Avi",   "className": "A", "subject": "English", "score": 50 },
+  { "studentName": "Tamar", "className": "A", "subject": "History", "score": 45 },
+  { "studentName": "Maya",  "className": "B", "subject": "Math",    "score": 100 },
+  { "studentName": "Omer",  "className": "B", "subject": "Math",    "score": 40 },
+  { "studentName": "Shira", "className": "B", "subject": "English", "score": 75 },
+  { "studentName": "Eitan", "className": "B", "subject": "English", "score": 60 },
+  { "studentName": "Lior",  "className": "B", "subject": "History", "score": 95 }
+]

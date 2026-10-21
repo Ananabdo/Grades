@@ -1,0 +1,234 @@
+{
+  "info": {
+    "name": "02-grades",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "POST Dana",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "http://localhost:3000/grades",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"studentName\": \"Dana\",\n  \"className\": \"A\",\n  \"subject\": \"Math\",\n  \"score\": 90\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Yossi",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "http://localhost:3000/grades",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"studentName\": \"Yossi\",\n  \"className\": \"A\",\n  \"subject\": \"Math\",\n  \"score\": 70\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Noa",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "http://localhost:3000/grades",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"studentName\": \"Noa\",\n  \"className\": \"A\",\n  \"subject\": \"English\",\n  \"score\": 85\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Avi",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "http://localhost:3000/grades",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"studentName\": \"Avi\",\n  \"className\": \"A\",\n  \"subject\": \"English\",\n  \"score\": 50\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Tamar",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "http://localhost:3000/grades",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"studentName\": \"Tamar\",\n  \"className\": \"A\",\n  \"subject\": \"History\",\n  \"score\": 45\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Maya",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "http://localhost:3000/grades",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"studentName\": \"Maya\",\n  \"className\": \"B\",\n  \"subject\": \"Math\",\n  \"score\": 100\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Omer",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "http://localhost:3000/grades",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"studentName\": \"Omer\",\n  \"className\": \"B\",\n  \"subject\": \"Math\",\n  \"score\": 40\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Shira",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "http://localhost:3000/grades",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"studentName\": \"Shira\",\n  \"className\": \"B\",\n  \"subject\": \"English\",\n  \"score\": 75\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Eitan",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "http://localhost:3000/grades",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"studentName\": \"Eitan\",\n  \"className\": \"B\",\n  \"subject\": \"English\",\n  \"score\": 60\n}"
+        }
+      }
+    },
+    {
+      "name": "POST Lior",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "http://localhost:3000/grades",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"studentName\": \"Lior\",\n  \"className\": \"B\",\n  \"subject\": \"History\",\n  \"score\": 95\n}"
+        }
+      }
+    },
+    {
+      "name": "GET all grades",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:3000/grades"
+      }
+    },
+    {
+      "name": "1 - average",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:3000/grades/average"
+      }
+    },
+    {
+      "name": "2 - average-by-class",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:3000/grades/average-by-class"
+      }
+    },
+    {
+      "name": "3 - passed",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:3000/grades/passed"
+      }
+    },
+    {
+      "name": "4 - top-subjects",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:3000/grades/top-subjects"
+      }
+    },
+    {
+      "name": "Bonus 1 - failed-by-class",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:3000/grades/failed-by-class"
+      }
+    },
+    {
+      "name": "Bonus 2 - max-by-subject",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:3000/grades/max-by-subject"
+      }
+    }
+  ]
+}

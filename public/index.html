@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grades Dashboard</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="topbar">
+        <div class="brand">Grades Dashboard</div>
+        <div class="actions">
+          <button class="button secondary" id="refreshBtn">Refresh</button>
+          <button class="button primary" id="apiBtn">Open API</button>
+        </div>
+      </header>
+
+      <main class="hero">
+        <section class="hero-copy">
+          <p class="eyebrow">Performance overview</p>
+          <h1>Student performance at a glance</h1>
+          <p class="lead">
+            Track grade averages, subject strength, class outcomes, and pass/fail patterns from the API in one polished overview.
+          </p>
+
+          <div class="stats">
+            <div class="stat-card">
+              <label>Total Records</label>
+              <strong id="totalCount">--</strong>
+            </div>
+            <div class="stat-card">
+              <label>Average</label>
+              <strong id="avgScore">--</strong>
+            </div>
+            <div class="stat-card">
+              <label>Passed</label>
+              <strong id="passedCount">--</strong>
+            </div>
+          </div>
+        </section>
+
+        <aside class="metric-panel">
+          <div class="mini-header">
+            <span>Performance</span>
+            <span id="classLabel" class="muted">Class A</span>
+          </div>
+          <div class="ring"><span id="ringValue">--</span></div>
+          <div id="performanceText" class="performance-text">Loading...</div>
+        </aside>
+      </main>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Latest grades</h2>
+          <span id="statusText" class="muted">Fetching data...</span>
+        </div>
+        <div id="gradesGrid" class="grid"></div>
+      </section>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
